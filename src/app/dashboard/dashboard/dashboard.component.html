@@ -1,0 +1,93 @@
+<div>
+  <div class="title">
+    <h5 style="font-weight: bold;">Dashboard</h5>
+    <input type="text" style="margin-left: auto;width: 110px;" value="{{date | date:'dd MMMM yyyy'}}" />
+    <div style="padding-right: 8px;">
+      <img src="../assets/images/calender.png" alt="" />
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-3 col-sm-6">
+      <!-- small box -->
+      <div class="small-box bg-total-record ">
+        <div class="text-center total-record">Number of SOP Trigger</div>
+
+        <div class="inner">
+
+          <div>
+            <h1 style="color:#3AAFB9 ;">{{TriggeredRecord}}</h1>
+          </div>
+
+        </div>
+        <div class="logo">
+          <img src="../assets/images/card1.png" alt="card 1">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6">
+      <!-- small box -->
+      <div class="small-box bg-total-failed">
+        <div class="text-center total-failed">Number of SOP Failed</div>
+
+        <div class="inner">
+
+          <div>
+            <h1 style="color: #EDBA30;">{{totalFailedRecord}}</h1>
+
+          </div>
+
+        </div>
+        <div class="logo">
+          <img src="../assets/images/card2.png" alt="card 2">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6">
+      <!-- small box -->
+      <div class="small-box bg-avg-response">
+        <div class="text-center avg-response">Average Execution Time</div>
+
+        <div class="inner">
+          <div class="time">
+            <h1 style="color:#E86C17">{{avgResponseTime}}<span style="font-size: 15px;">sec</span></h1>
+
+          </div>
+
+        </div>
+        <div class="logo">
+          <img src="../assets/images/card3.png" alt="card 3">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6">
+      <!-- small box -->
+      <div class="small-box bg-total-completed">
+        <div class="text-center total-completed">Number of SOP Completed</div>
+
+        <div class="inner">
+
+          <div>
+            <h1 style="color:#006599">{{totalCompletedRecord}}</h1>
+          </div>
+
+        </div>
+        <div class="logo">
+          <img src="../assets/images/card4.png" alt="card 4">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="title">
+
+    <h5 style="font-weight:bold;">SOP Monitoring</h5>
+    <span style="color:#006599;font-weight:bold;font-size: 12px;padding-right: 6px;">View All</span>
+
+  </div>
+
+</div>

@@ -1,0 +1,23 @@
+
+.site-header {
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006599;;
+    color: white;
+    padding: 0px 5px 0px 20px;
+  }
+  .site-header__nav{
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+    width: 200px;
+   
+  }
+
+  .site-header__logo{
+    height: 40px;
+  }
+ 
